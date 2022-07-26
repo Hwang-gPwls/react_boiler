@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"module": "esnext",
+		"jsx": "react-jsx",
+		"baseUrl": "./",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"declaration": false,
+		"removeComments": true,
+		"pretty": true,
+		"strictFunctionTypes": true,
+		"noUnusedLocals": false,
+		"downlevelIteration": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
